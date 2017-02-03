@@ -1,3 +1,4 @@
+# Utilising the IBM Watson service of AlchemyLanguageV1 to classify the research area of a scholar based on publication reocrds (top 50 cited)
 import pymssql
 from watson_developer_cloud import AlchemyLanguageV1
 
