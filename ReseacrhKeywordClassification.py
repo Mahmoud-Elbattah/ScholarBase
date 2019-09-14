@@ -2,7 +2,7 @@
 import pymssql
 from watson_developer_cloud import AlchemyLanguageV1
 
-alchemy_language = AlchemyLanguageV1(api_key='1a65a9e520e3450fcf15949ebb62cda1498e5401')
+alchemy_language = AlchemyLanguageV1(api_key='')
 
 conn = pymssql.connect(server='.', database='ScholarData')# Connecting to a local MSSQL DB storing collected scholar data
 cursor1 = conn.cursor()
